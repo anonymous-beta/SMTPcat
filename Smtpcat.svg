@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="700" height="320">
+  <!-- Light background -->
+  <rect width="700" height="320" fill="#f8fafc"/>
+
+  <!-- Left side: Icon -->
+  <g transform="translate(40, 40)">
+    <!-- Envelope -->
+    <rect x="20" y="90" width="220" height="150" rx="10" fill="none" stroke="#1e293b" stroke-width="11"/>
+    
+    <!-- Envelope flap -->
+    <path d="M20 90 L130 185 L240 90" fill="none" stroke="#1e293b" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Teal accents -->
+    <path d="M35 105 L130 190 L225 105" fill="none" stroke="#0d9488" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Cat head -->
+    <g transform="translate(55, 15)">
+      <!-- Head -->
+      <path d="M65 25
+               C65 8 50 -2 32 10
+               C18 0 0 12 8 38
+               C-2 58 8 100 38 112
+               C52 120 78 120 92 112
+               C122 100 132 58 122 38
+               C130 12 112 0 98 10
+               C80 -2 65 8 65 25Z" 
+            fill="#1e293b"/>
+
+      <!-- Left ear -->
+      <path d="M25 28 L8 -5 L42 22Z" fill="#1e293b"/>
+      
+      <!-- Right ear -->
+      <path d="M105 28 L122 -5 L88 22Z" fill="#1e293b"/>
+
+      <!-- Eyes -->
+      <ellipse cx="45" cy="55" rx="10" ry="5" fill="#f8fafc"/>
+      <ellipse cx="85" cy="55" rx="10" ry="5" fill="#f8fafc"/>
+    </g>
+  </g>
+
+  <!-- Right side: Wordmark -->
+  <text x="480" y="175" 
+        font-family="Inter, Arial, Helvetica, sans-serif" 
+        font-size="72" 
+        font-weight="600" 
+        fill="#1e293b" 
+        text-anchor="middle"
+        letter-spacing="1">
+    SMTPcat
+  </text>
+</svg>
