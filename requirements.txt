@@ -1,0 +1,13 @@
+# Core dependencies
+dnspython>=2.4.0
+requests>=2.28.0
+PySocks>=1.7.1
+
+# ML/AI dependencies (optional)
+numpy>=1.24.0
+scikit-learn>=1.2.0
+
+# Plotting (optional)
+matplotlib>=3.6.0
+
+# TUI uses built-in curses (no extra deps)
