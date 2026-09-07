@@ -1,0 +1,4 @@
+target.com
+internal.target.com
+mail.target.com
+smtp.target.com
